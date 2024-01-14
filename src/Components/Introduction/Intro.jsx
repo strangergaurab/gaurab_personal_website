@@ -1,23 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import './intro.css';
 import { Link } from 'react-scroll';
-import btnImg from '../../assets/hireme.png';
-import gaurab from '../../assets/gaurav.png';
+import btnImg from '../../assest/hireme.png';
+import gaurab from '../../assest/gaurav.png';
 
 const Intro = () => {
   const jobTitles = ['Full Stack Developer', 'Programmer', 'Data Analyst'];
   const [currentJobTitleIndex, setCurrentJobTitleIndex] = useState(0);
-
+  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentJobTitleIndex((prevIndex) => (prevIndex + 1) % jobTitles.length);
-    }, 2000); // Change the job title every 2 seconds (2000 milliseconds)
-
+    }, 2000);
+  
     return () => {
-      clearInterval(interval); // Cleanup the interval when the component unmounts
+      clearInterval(interval);
     };
-  }, []);
-
+  }, [jobTitles.length]); // Include jobTitles.length in the dependency array
+  
   const currentJobTitle = jobTitles[currentJobTitleIndex];
 
   return (
