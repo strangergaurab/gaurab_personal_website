@@ -40,9 +40,9 @@ const contact = () => {
                     <i className="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i>
                     <div className="contact-address">
                       <h5 className="text-white"><FaPhoneVolume />Social Profiles</h5>
-                      <a href="#" target="_blank" rel="noopener noreferrer" className="icons"><FaFacebook /></a>
-                      <a href="#" target="_blank" rel="noopener noreferrer" className="icons"><FaLinkedin /></a>
-                      <a href="#" target="_blank" rel="noopener noreferrer" className="icons"><FaXTwitter /></a>
+                      <a href="https://www.linkedin.com/in/gaurab-shrestha-0b23b1216/" target="_blank" rel="noopener noreferrer" className="icons"><FaFacebook /></a>
+                      <a href="https://www.linkedin.com/in/gaurab-shrestha-0b23b1216/" target="_blank" rel="noopener noreferrer" className="icons"><FaLinkedin /></a>
+                      <a href="https://www.linkedin.com/in/gaurab-shrestha-0b23b1216/" target="_blank" rel="noopener noreferrer" className="icons"><FaXTwitter /></a>
 
                     </div>
                   </li>
