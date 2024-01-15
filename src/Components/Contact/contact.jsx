@@ -6,9 +6,6 @@ import { FaAddressBook } from "react-icons/fa";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { MdOutlineMail } from "react-icons/md";
 import { GrContactInfo } from "react-icons/gr";
-import { FaFacebook } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
 
 const contact = () => {
   return (
